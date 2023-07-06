@@ -40,6 +40,7 @@ const movies = [
     score: 8.9
   },
   {
+    
     title: 'Schindler"s List',
     year: 1993,
     director: 'Steven Spielberg',

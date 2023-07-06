@@ -120,10 +120,12 @@ describe('Function "scoresAverage"', () => {
   });
 
   it(' should return the average score of 2 movies with score 8 each', () => {
+   
     expect(scoresAverage([{ score: 8 }, { score: 8 }])).toBe(8);
   });
 
   it('should be rounded to 2 decimals places', () => {
+  
     expect(scoresAverage([{ score: 8 }, { score: 9 }, { score: 9 }])).toBe(
       8.67
     );
@@ -300,6 +302,7 @@ describe('Function "orderAlphabetically"', () => {
       { title: 'bab' },
       { title: 'acb' }
     ];
+    //console.log(orderAlphabetically(moviesArr).length)
     expect(orderAlphabetically(moviesArr).length).toBe(20);
   });
 
